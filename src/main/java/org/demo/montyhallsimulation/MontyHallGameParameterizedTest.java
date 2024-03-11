@@ -30,6 +30,7 @@ public class MontyHallGameParameterizedTest {
     public void testSwitchDoor() {
         MontyHallGame game = new MontyHallGame();
         game.setPlayerChoice(playerChoice);
+        //почему тут такая проверка?
         assertEquals(expected, game.switchDoor());
     }
 }
