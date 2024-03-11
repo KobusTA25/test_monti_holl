@@ -23,6 +23,7 @@ public class MontyHallGameTest {
     public void testOpenGoatDoorWhenPlayerChoosesCar() {
         MontyHallGame game = new MontyHallGame();
         game.setPlayerChoice(game.getCarPosition());
+        //У Вас тут такие же действия как и в первом тесте, но другой ожиданмый результат. Почему?
         assertFalse(game.openGoatDoor());
     }
 
